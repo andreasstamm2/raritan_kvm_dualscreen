@@ -12,6 +12,8 @@ The project is build up by three parts:
 5. Application
 
 <b>The setup:</b>
+![image](https://github.com/andreasstamm2/raritan_kvm_dualscreen/assets/162843177/406541bc-31f9-4823-be2d-5cc45df4fe85)
+
 
 <b>Absolute mouse mode:</b>
 In order to control the PC the KVM is connected to the PC via a USB cable as shown in the section "Setup".
