@@ -37,7 +37,8 @@ If the system is a PC with two screens both with 1280x1024 resolution, if the KV
 If the KVM sends 16384/1 will position the cursor at pixel 1280/1 of the 1st screen.
 So it's necessary that the KVM knows the screen setup to understand that it is operating on a virtual desktop.
 
-
+Tests:
+[Information about a possible test-setup](README_test.md)
 
 
 
