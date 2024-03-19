@@ -31,14 +31,20 @@ Not all cables that have Mini-USB on the one side and USB on the other are data 
 Some just power up the Raspberry Pi, so that you see the LED flashing, but you later wonder why nothing more is happening :-)
 
 Connect the "real" data cable to the data port of the Pi:
-![image](https://github.com/andreasstamm2/raritan_kvm_dualscreen/assets/162843177/33ebbedf-3e9d-406e-bbf3-e982b6c71d9b)
+<img src="https://github.com/andreasstamm2/raritan_kvm_dualscreen/assets/162843177/33ebbedf-3e9d-406e-bbf3-e982b6c71d9b" width="546" height="300">
 
+Find out the IP address of the Raspberry Pi in your local network (probably through the admin page of your router) and connect via ssh (I use Putty as my SSH client) to your Raspberry Pi.
+Use the credentials that you set with the Raspberry Pi Imager above.
+If you are logged in to your Raspberry Pi:
 
-
-
-Then we need to add the following line to /boot/config.txt 
+Add the following line to /boot/config.txt 
 ```
 dtoverlay=dwc2
+```
+
+For that you can e.g. use the nano editor
+```
+sudo nano /boot/config.txt
 ```
 
 We are using the Config-Filesystem (ConfigFS) to create/simulate our USB HID device, the mouse.
