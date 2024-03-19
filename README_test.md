@@ -9,7 +9,32 @@ I would also suggest to use a housing which makes it more comfortable (but this 
 [Raspberry Pi Zero W Housing (Amazon.com)](https://www.amazon.com/dp/B075FLGWJL)<br>
 <br>
 
-First of all you need the Linux operating system which you can get using the official Tool:
+First of all you need the Raspberry Pi OS which you can get using the official Raspberry Pi Imager:<br>
+[Raspberry Pi Imager (Windows, latest)](https://downloads.raspberrypi.org/imager/imager_latest.exe)<br>
+You should select "Raspberry Pi Zero", <b>NOT</b> "Raspberry Pi Zero 2"
+Then chose "Raspberry Pi OS (other)" and select "Raspberry Pi OS (Legacy, 32-bit) Lite".
+Then chose the SD-card that you want to use for the Raspberry Pi.
+<b>Settings "General":<br></b>
+In the general settings, select "username + password".
+You will need this when connecting to your Raspberry Pi through SSH later.
+Wifi:<br>
+You should set a Wifi-Network, so that you can connect to your Raspberry Pi in your local network.
+Settings "Wifi":<br>
+<b>Settings "Services":<br></b>
+Activate SSH and choose to use password instead of public-key.
+
+The continue so that the Image will be written to the SD card.
+After a couple of minutes you can take out the SD card and put it in your Raspberry Pi.
+
+Make sure that you use a data cable Mini-USB to USB!
+Not all cables that have Mini-USB on the one side and USB on the other are data cables.
+Some just power up the Raspberry Pi, so that you see the LED flashing, but you later wonder why nothing more is happening :-)
+
+Connect the "real" data cable to the data port of the Pi:
+![image](https://github.com/andreasstamm2/raritan_kvm_dualscreen/assets/162843177/33ebbedf-3e9d-406e-bbf3-e982b6c71d9b)
+
+
+
 
 Then we need to add the following line to /boot/config.txt 
 ```
