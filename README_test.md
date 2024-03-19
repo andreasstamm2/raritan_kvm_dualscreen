@@ -30,7 +30,7 @@ Make sure that you use a data cable Mini-USB to USB!
 Not all cables that have Mini-USB on the one side and USB on the other are data cables.
 Some just power up the Raspberry Pi, so that you see the LED flashing, but you later wonder why nothing more is happening :-)
 
-Connect the "real" data cable to the data port of the Pi:
+Connect the "real" data cable to the data port of the Pi:<br>
 <img src="https://github.com/andreasstamm2/raritan_kvm_dualscreen/assets/162843177/33ebbedf-3e9d-406e-bbf3-e982b6c71d9b" width="546" height="300">
 
 Find out the IP address of the Raspberry Pi in your local network (probably through the admin page of your router) and connect via ssh (I use Putty as my SSH client) to your Raspberry Pi.
