@@ -62,7 +62,7 @@ Edit /etc/rc.local as root and add the following  before the line ‘exit’.
 sudo nano /etc/rc.local
 
 ...
-/usr/bin/isticktoit_usb # libcomposite configuration
+/usr/bin/myusbmouse # libcomposite configuration
 exit
 ```
 
