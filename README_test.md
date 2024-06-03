@@ -70,14 +70,17 @@ You need to replace <USERNAME> with the actual user that was created on the rasp
 In my case the line needs to be changed to
 ```
 python /home/andreas/absolute_mouse_test.py &
-...
+```
 
-Your home directory should contain these two files:
+Your home directory should contain these two files:<br>
+[absolute_mouse_test.py](absolute_mouse_test.py)<br>
+[mouse_move_absolute.py](mouse_move_absolute.py)<br>
+
+So again, in my case:
 ```
 /home/andreas/absolute_mouse_test.py
 /home/andreas/mouse_move_absolute.py
-...
-
+```
 
 Now when you reboot the Raspberry Pi Zero it should create a USB Mouse that works in absolute mouse mode.
 At the end of the script myusbmouse we start a small script that moves the mouse to certain coordinates.
