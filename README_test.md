@@ -49,7 +49,7 @@ sudo nano /boot/config.txt
 
 We are using the Config-Filesystem (ConfigFS) to create/simulate our USB HID device, the mouse.
 For this we use the script in [myusbmouse](myusbmouse)
-to create a USB HID device with absolute mouse mode.
+to create a USB HID device with absolute mouse mode using configFS.
 This script should be copied to /usr/bin/
 Then make is executable by running
 ```
@@ -61,10 +61,23 @@ Edit /etc/rc.local as root and add the following  before the line ‘exit’.
 ```
 sudo nano /etc/rc.local
 
-...
 /usr/bin/myusbmouse # libcomposite configuration
 exit
 ```
+
+At the end of the script there is a call to the test script that will actually move the mouse cursor.
+You need to replace <USERNAME> with the actual user that was created on the raspberry and copy two python files to the home directory of this user.
+In my case the line needs to be changed to
+```
+python /home/andreas/absolute_mouse_test.py &
+...
+
+Your home directory should contain these two files:
+```
+/home/andreas/absolute_mouse_test.py
+/home/andreas/mouse_move_absolute.py
+...
+
 
 Now when you reboot the Raspberry Pi Zero it should create a USB Mouse that works in absolute mouse mode.
 At the end of the script myusbmouse we start a small script that moves the mouse to certain coordinates.
