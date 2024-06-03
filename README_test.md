@@ -8,6 +8,7 @@ We need a Raspberry Pi Zero W (the old one):<br>
 I would also suggest to use a housing which makes it more comfortable (but this is not needed at all):<br>
 [Raspberry Pi Zero W Housing (Amazon.com)](https://www.amazon.com/dp/B075FLGWJL)<br>
 <br>
+And you will definetly a micro SD card.
 
 First of all you need the Raspberry Pi OS which you can get using the official Raspberry Pi Imager:<br>
 [Raspberry Pi Imager (Windows, latest)](https://downloads.raspberrypi.org/imager/imager_latest.exe)<br>
