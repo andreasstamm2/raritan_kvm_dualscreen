@@ -10,6 +10,12 @@ I would also suggest to use a housing which makes it more comfortable (but this 
 <br>
 And you will definetly a micro SD card.
 
+<b>Shortcut:<br></b>
+Below I will explain how the Raspberry Pi Linux system can be set up.
+If you just want the the running tool you can skip this and follow this instruction about flashing the micro SD card instead:<br>
+[Shortcut showing how to flash the finished image to the SD card](README_test_shortcut.md)
+
+<b>Detailed setup:<br></b>
 First of all you need the Raspberry Pi OS which you can get using the official Raspberry Pi Imager:<br>
 [Raspberry Pi Imager (Windows, latest)](https://downloads.raspberrypi.org/imager/imager_latest.exe)<br>
 You should select "Raspberry Pi Zero", <b>NOT</b> "Raspberry Pi Zero 2"
