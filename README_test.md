@@ -9,6 +9,7 @@ I would also suggest to use a housing which makes it more comfortable (but this 
 [Raspberry Pi Zero W Housing (Amazon.com)](https://www.amazon.com/dp/B075FLGWJL)<br>
 <br>
 And you will definetly a micro SD card.
+If you use a card with 16GB or more you can use the shortcut and just flash the available finished project without doing any "work" on Linux.
 
 <b>Shortcut:<br></b>
 Below I will explain how the Raspberry Pi Linux system can be set up.
