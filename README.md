@@ -53,9 +53,21 @@ There are drivers from KVM manufacturers however to get back to the "old" way of
 - [Matrox KVM driver](https://video.matrox.com/en/apps/drivers/graphics/download?id=816)
 - [Adder KVM driver](https://www.adder.com/en/resources/dual-monitor-driver-v10)
 
-<b>Tests:</b><br>
+<b>KVM test device:</b><br>
+Detailed description:<br>
+Here is the link to a description how you can set up a test device (based on Raspberry Pi Zero (cheap :-)) to check if a PC is ready to be connected with a KVM:
+[KVM test tool - detailed setup](README_test.md)
 
-[Information about a possible test-setup](README_test.md)
+Shortcut:<br>
+If you are lazy and want to only flash the USB card and use the tool you can have a look here:
+[KVM test tool - shortcut ](README_test_shortcut.md)
 
+Analysis of test results:<br>
+Here you can have a look at the expected results and some scenarios where the PC is not (yet) configured correctly to work with the KVM:
+[Analysis of test results](readme_test_analysis.md)
+
+How to fix my setup?:<br>
+Here you can find out about what can be done if the test results don't look like they should:
+[How to fix things?](readme_fixing_things.md)
 
 
