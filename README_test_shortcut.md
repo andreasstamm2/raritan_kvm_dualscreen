@@ -12,4 +12,4 @@ If DiskImager successfully wrote the image to the SD card you can unmount the SD
 If you disconnect the USB cable and connect it again to your PC, it should boot and do some tests.
 
 Here you can get an overview of what should happen and what different results tell you:<br>
-[Analysis of test results](readme_test_results)
+[Analysis of test results](readme_test_analysis.md)
