@@ -24,11 +24,9 @@ If you're not seeing any movement of the cursor it could be that your PC was con
 This is very unusual for Windows or Mac PCs. This is more common for Linux systems.
 On older Linux machines with X being the display manager one could have a very specific configuration of your input devices in /etc/X11/xorg.conf.
 If you connect a KVM (or the KVM test tool) to such a machine the machine might not recognize the mouse from the KVM as a valid input device.
-I will also show you some possibilities to get around this here: [how to fix this?](readme_fixing_things.md)
+I will show you how to get around this here: [how to fix this?](readme_fixing_things.md)
 
 <b>Cursor movement with offset</b><br>
 If the cursor is moving, but there is an offset there are two possibilities:
 1. There are more screens attached to the PC. You might not see all of them. Sometimes a touch screen is configured as a 2nd or 3rd screen and is positioned in a way that it cannot be reached with the mouse. In this case, depending on the exact screen setup, the points that the cursor reaches will have an offset or will not be visible at all.
-2. It is a Linux machine that uses a generic legacy mouse driver which does not support absolute mouse mode. Even if the Linux Kernel supports absolute mouse mode, if this legacy driver is used the driver will try to translate absolute coordinates to relative coordinates. This will most likely lead to a shift in coordinates. The exact offset depends on where the mouse was positioned before you attached the KVM test device.
-
-[how to fix this?](readme_fixing_things.md)
+2. It is a Linux machine that uses a generic legacy mouse driver which does not support absolute mouse mode. Even if the Linux Kernel supports absolute mouse mode, if this legacy driver is used the driver will try to translate absolute coordinates to relative coordinates. This will most likely lead to a shift in coordinates. The exact offset depends on where the mouse was positioned before you attached the KVM test device. You can find out how to fix this in the section [how to fix this?](readme_fixing_things.md)
